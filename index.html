@@ -29,7 +29,7 @@
   <link href="css/responsive.css" rel="stylesheet">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="shortcut icon" href="images/PauLogo.PNG">
 
   <!-- =======================================================
     Theme Name: Folio
@@ -47,7 +47,7 @@
       <div class="container">
 
         <div class="logo">
-          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+          <a href="index.html"><img src="images/PauLogo.PNG" alt="logo"></a>
         </div>
 
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
@@ -55,6 +55,7 @@
         <ul class="nav-menu list-unstyled">
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#experience" class="smoothScroll">Experience</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
@@ -74,7 +75,8 @@
         <p>Java, Android and Backend developer</p>
 
         <ul class="list-unstyled list-social">
-        
+          <li><a href="https://github.com/Paxsem"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/pau-pájaro-mondéjar-131330253/"><i class="ion-social-linkedin"></i></a></li>
         </ul>
       </div>
     </div>
@@ -82,32 +84,38 @@
   <!-- End section header -->
 
 
-  <!-- start section about us -->
-  <div id="about" class="paddsection">
-    <div class="container">
-      <div class="row justify-content-between">
+<!-- start section about us -->
+<div id="about" class="paddsection">
+  <div class="container">
+    <div class="row justify-content-between">
 
-        <div class="col-lg-4 ">
-          <div class="div-img-bg">
-            <div class="about-img">
-              <img src="images/me.jpg" class="img-responsive" alt="me">
-            </div>
+      <div class="col-lg-4">
+        <div class="div-img-bg">
+          <div class="about-img">
+            <img src="images/me.jpg" class="img-responsive" alt="me">
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-7">
-          <div class="about-descr">
-            
-            <p class="p-heading">I'm a app developer who loves Android and Java. I also enjoy solving problems.</p>
-            <p class="separator">I'm Pau Pájaro Mondéjar, a recent graduate in app development. I have a strong passion for Android and Java, and I thoroughly enjoy problem-solving. My expertise lies in creating innovative mobile applications and delivering seamless user experiences through my analytical mindset.</p>
+      <div class="col-lg-7">
+        <div class="about-descr">
+          <p class="p-heading">I'm an app developer who loves Android and Java. I also enjoy solving problems.</p>
+          <p class="separator">I'm Pau Pájaro Mondéjar, a recent graduate in app development. I have a strong passion for Android and Java, and I thoroughly enjoy problem-solving. My expertise lies in creating innovative mobile applications and delivering seamless user experiences through my analytical mindset.</p>
 
+          <div style="margin-top: 20px; display: flex; align-items: center;">
+            <a href="lib/cv/CV Pau Pájaro Mondéjar.pdf" class="btn btn-download">
+              <span class="btn-text">Download CV</span>
+            </a>
           </div>
-
         </div>
       </div>
     </div>
   </div>
-  <!-- end section about us -->
+</div>
+<!-- end section about us -->
+
+
+
 
 
   <!-- start section services -->
@@ -166,6 +174,39 @@
   </div>
   <!-- end section services -->
 
+  <!-- start section experience -->
+<div id="experience" class="paddsection">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Experience</h2>
+    </div>
+    <div class="row">
+      <!-- Aquí puedes agregar tus experiencias laborales en forma de tarjetas o listas -->
+      <div class="col-lg-12">
+        <div class="experience-item">
+          <h3>Datapta</h3>
+          <h4>Internship | Enero 2023 - May 2023</h4>
+          <p>Job Experience Description:</p>
+          <ul>
+            <li>Development of a natural language processing (NLP) model using Hugging Face's Flan T5.</li>
+            <li>Performing fine-tuning tasks to adapt the model to answer specific questions about renowned economists.</li>
+            <li>Implementation of data preprocessing and cleaning techniques to enhance the quality and accuracy of the model's generated responses.</li>
+            <li>Researching and gathering relevant data about recognized economists and their professional trajectory to enrich the model's knowledge base.</li>
+            <li>Evaluating and continuously adjusting the model to optimize its performance and effectiveness in answering specific questions about renowned economists.</li>
+            <li>Maintaining and periodically updating the model to stay up-to-date with the latest advancements in the NLP field, ensuring its relevance and precision in the generated responses.</li>
+            <li>Documenting the steps and processes used in the model's development and training to facilitate replication and understanding by other team members.</li>
+          </ul>
+        </div>
+      </div>
+      
+      
+      
+    </div>
+  </div>
+</div>
+<!-- End section experience -->
+
+
 
   <!-- start section portfolio -->
   <div id="portfolio" class="text-center paddsection">
@@ -194,29 +235,74 @@
           <div class="portfolio-container">
 
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all android">
-              <a  href="https://github.com/Paxsem/Libe_Android">
+              <a href="https://github.com/Paxsem/Libe_Android">
                 <img src="images/portfolio/libe.png" alt="img">
+                <div class="hover-info">
+                  <h3>Libe Android</h3>
+                  <p>Android application for taking attendance in school.</p>
+                </div>
               </a>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all desktop">
               <a  href="https://github.com/raullendines/projecte_eywa">
-                <img src="images/portfolio/2.jpg"  alt="img">
+                <img src="images/portfolio/eywa.png"  alt="img">
+                <div class="hover-info">
+                  <h3>EYWA Desktop</h3>
+                  <p>Desktop application to handle questions that later came out in EYWA Android Quiz</p>
+                </div>
               </a>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all desktop">
               <a  href="https://github.com/PolPuiggros/Libe_Escriptori">
-                <img src="images/portfolio/3.jpg" alt="img">
+                <img src="images/portfolio/libe.png" alt="img">
+                <div class="hover-info">
+                  <h3>Libe Desktop</h3>
+                  <p>Desktop application to manage institute data to then show in Libe Android app</p>
+                </div>
               </a>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all android">
               <a  href="https://github.com/raullendines/eywa_android">
-                <img src="images/portfolio/4.jpg" alt="img">
+                <img src="images/portfolio/eywa.png" alt="img">
+                <div class="hover-info">
+                  <h3>EYWA Android</h3>
+                  <p>Android app that simulates a movie quiz</p>
+                </div>
               </a>
             </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all others">
+              <a  href="https://github.com/PolCrespo5/Libe_API">
+                <img src="images/portfolio/api.png" alt="img">
+                <div class="hover-info">
+                  <h3>Libe API</h3>
+                  <p>API created to communicate the database with the Libe Android application</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all others">
+              <a  href="https://github.com/VictorGuill/tiguere">
+                <img src="images/portfolio/hispeed.png" alt="img">
+                <div class="hover-info">
+                  <h3>Hi Speed</h3>
+                  <p>Role play game made in Java</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all desktop">
+              <a  href="https://github.com/Paxsem/Repte-Hotels-M06">
+                <img src="images/portfolio/hotel.png" alt="img">
+                <div class="hover-info">
+                  <h3>Soho Hotels</h3>
+                  <p>Desktop application for managing hotel chains, hotels and activities</p>
+                </div>
+              </a>
+            </div>
 
           </div>
         </div>
@@ -305,12 +391,8 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-          <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-          <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+          <li><a href="https://github.com/Paxsem"><i class="ion-social-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/pau-pájaro-mondéjar-131330253/"><i class="ion-social-linkedin"></i></a></li>
         </ul>
 
       </div>
